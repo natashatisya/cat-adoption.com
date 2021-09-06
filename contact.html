@@ -1,0 +1,86 @@
+<div class="contact-section">
+	<h1>Contact Us</h1>
+	<p>Do you want to ask a question or report some problem? Fill out the form and fill us in the details. Get in touch with us!</p>
+</div>
+
+	<form action="/action_page.php" target="_blank">
+		<div class="ontact-section">
+			<label>Name</label>
+			<input class="contact-input contact-border" type="text" name="Name" required>
+		</div>
+		<div class="contact-section">
+			<label>Email</label>
+			<input class="contact-input contact-border" type="text" name="Email" required>
+		</div>
+		<div class="contact-section">
+			<label>Message</label>
+			<input class="contact-input" type="text" name="Message" required
+		</div>
+		<p><button class="w3-button w3-block w3-orange w3-left-align" type="send message" onclick='document.getElementById("demo").style.display = "block"'></i> Send a Message</button></p>
+		<p id="demo" style="display:none">✓ The message was sent successfully! </p>
+	</form>
+</div>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #ff7e00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.messagebtn {
+  background-color: #ff7e00;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
